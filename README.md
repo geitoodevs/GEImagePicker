@@ -7,7 +7,7 @@ In addition this tool will check the **permissions** the app has for accessing t
 
 It was added an **actionsheet** for making easier the selection of the picture.
 
-![ActionSheet](Source/action_sheet.png)
+![ActionSheet](Resources/action_sheet.png)
 
 ## Usage
 If you want to try the example project clone the repository and run pod install from the Example directory first.
