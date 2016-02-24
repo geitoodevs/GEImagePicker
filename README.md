@@ -93,11 +93,8 @@ enum GEImagePickerSource {
 iOS 8.0
 
 ## Installation
-Copy GEImagePicker.swift file to your project and add the import line:
+Copy GEImagePicker.swift file to your project and add start using the functions available.
 
-```swift
-import GEImagePicker
-```
 ## Author
 
 Miguel Rodríguez, www.geitoo.com
