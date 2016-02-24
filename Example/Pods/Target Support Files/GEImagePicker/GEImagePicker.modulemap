@@ -1,0 +1,6 @@
+framework module GEImagePicker {
+  umbrella header "GEImagePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
