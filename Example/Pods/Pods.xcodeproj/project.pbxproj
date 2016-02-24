@@ -7,39 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E822D106BCC759A614BD207C5C8330E /* GEImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E000ACBA2274DA8F27D6AF07A562C2E /* GEImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A4BFE206B790CCFF43A29DB53114F9C /* GEImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81A8633AF96D65EC9AAA442FE5196BF6 /* GEImagePicker.bundle */; };
-		2E4455BA24A6774FA7470AA6905E3A24 /* GEImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CF1F1BCDEE4F97A1D5FEF4C4F0C883 /* GEImagePicker-dummy.m */; };
 		36F6709BA16F018FC0775BF769E0FB38 /* Pods-GEImagePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80722E786C26BADECE24E5EE559172B6 /* Pods-GEImagePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C37BAFA2DF88D0EA016CAC1AA035360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A5C543B2B41DE4C22658337082C7EB /* Foundation.framework */; };
-		8B9A641D1C7E28EF0085B819 /* GEImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A641C1C7E28EF0085B819 /* GEImagePicker.swift */; };
-		9919282B60F34A392830D71814B47BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A5C543B2B41DE4C22658337082C7EB /* Foundation.framework */; };
+		79CB169A144361FECBDCFBEB16833F53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4787D1EC72F1F648B4A0AA101DDB167F /* Foundation.framework */; };
+		8BA51FE51C7E338100685856 /* GEImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA51FE41C7E338100685856 /* GEImagePicker.swift */; };
+		95F3AA1A6A86CA4CB19E66250EC6F5B7 /* GEImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F1437891B191589611FAA6B99EBE6A /* GEImagePicker-dummy.m */; };
 		BF0319D125E487AE5CCE4F9436BB100A /* Pods-GEImagePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95007BA9D5DBD59EA98F8A24711BF499 /* Pods-GEImagePicker_Tests-dummy.m */; };
-		D30D505CA6C88F64301BB3192EF40195 /* Pods-GEImagePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F47DAEB78A97BFD944E88665BD9B957 /* Pods-GEImagePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5828DDECB18C0AF605D5B9FED19EF6F /* Pods-GEImagePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F769B88AFB888659E20BDC1B4566F6 /* Pods-GEImagePicker_Example-dummy.m */; };
-		E00F2D3318187A2DBAF7217A4C699B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A5C543B2B41DE4C22658337082C7EB /* Foundation.framework */; };
+		E00F2D3318187A2DBAF7217A4C699B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4787D1EC72F1F648B4A0AA101DDB167F /* Foundation.framework */; };
+		E34249FB5AD47A03F6896BFED624E606 /* GEImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D75AF1554B8B02DF0F01F6289118F6B5 /* GEImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7892B2F899D9E434CFF9FCA2D7F0EA8 /* GEImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC76FF70F7B16F7DDDA75377E3986937 /* GEImagePicker.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		682413DDABFA61456B0EC9222AE1FCB8 /* PBXContainerItemProxy */ = {
+		15B5FD4E3FF8257E7C7C7DAA4F965BA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 52593E16309D5D5CEB3447EE83E51C8E;
+			remoteGlobalIDString = 4718C60321436C633A2FE73BA89FF553;
 			remoteInfo = "GEImagePicker-GEImagePicker";
 		};
-		C3214D1223DFB5BA10E51464BDDDCDA4 /* PBXContainerItemProxy */ = {
+		6DAFA564488F43FD24EFAA226AB068CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 659EBE1B80A9E971C2810D5E69E3FDC3;
-			remoteInfo = GEImagePicker;
-		};
-		D09960B70DED5A68706CB973AC13586A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 659EBE1B80A9E971C2810D5E69E3FDC3;
+			remoteGlobalIDString = EF8FB07D7A7BA0AAF03D55E1B8208F6F;
 			remoteInfo = GEImagePicker;
 		};
 /* End PBXContainerItemProxy section */
@@ -47,45 +37,35 @@
 /* Begin PBXFileReference section */
 		01529CE5601CFC047B48F73CCF0E1681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1435AC1D8E830072CEECE767D5B8CDE1 /* GEImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GEImagePicker.modulemap; sourceTree = "<group>"; };
-		3E000ACBA2274DA8F27D6AF07A562C2E /* GEImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GEImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		360A30E565BD3C074CA367D2F08B4399 /* Pods-GEImagePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GEImagePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F01FB31393E0C5BF8F106E15F7161F7 /* Pods-GEImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3F0AA439A406E3F9022C5B9DF478BB2E /* Pods-GEImagePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		457A68209085455DD80DC2DAD378E905 /* Pods-GEImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B6B5B66DC69DAD67AB64C9E19C22FA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65869E634FB2EF79392D73A222D798D3 /* GEImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GEImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CF1F1BCDEE4F97A1D5FEF4C4F0C883 /* GEImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GEImagePicker-dummy.m"; sourceTree = "<group>"; };
+		4787D1EC72F1F648B4A0AA101DDB167F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52FC9DB161AAB62E76C125F10481D34A /* Pods-GEImagePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		692C43DEECC4D1C358B7EC292270CBD6 /* GEImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GEImagePicker-prefix.pch"; sourceTree = "<group>"; };
-		69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GEImagePicker-Private.xcconfig"; sourceTree = "<group>"; };
-		7235F9140E6EB8515F621EBF78A05D52 /* Pods-GEImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7F47DAEB78A97BFD944E88665BD9B957 /* Pods-GEImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GEImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C1F5ABEB9E80B554BCA79FEC55AD0A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80722E786C26BADECE24E5EE559172B6 /* Pods-GEImagePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GEImagePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		81A8633AF96D65EC9AAA442FE5196BF6 /* GEImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A5C543B2B41DE4C22658337082C7EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B9A641C1C7E28EF0085B819 /* GEImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEImagePicker.swift; sourceTree = "<group>"; };
+		8BA51FE41C7E338100685856 /* GEImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GEImagePicker.swift; path = Classes/GEImagePicker.swift; sourceTree = "<group>"; };
 		95007BA9D5DBD59EA98F8A24711BF499 /* Pods-GEImagePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GEImagePicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		95271E3CEC24D58BE1F613E01BBCF802 /* Pods-GEImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GEImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		9DC505B6BE1517D6B7AADAD368E651EE /* Pods-GEImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GEImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A5DD2746A767248FF9C88D38508A0A15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A960D9482BC948FB845E9FC4478448E7 /* Pods_GEImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GEImagePicker-Private.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8B0DA79D12725B7339E67979546D3F2 /* Pods-GEImagePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GEImagePicker_Example.modulemap"; sourceTree = "<group>"; };
-		C8C6B2BBBC88CFA3EF56211855CCCD43 /* Pods-GEImagePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CCCD0C559CFCEA48397808FB748EF407 /* Pods-GEImagePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GEImagePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D19C613438C4E33C78C086E714C00739 /* Pods-GEImagePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GEImagePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1CE798150A7F67EAFF001CE984EF205 /* Pods-GEImagePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Example-resources.sh"; sourceTree = "<group>"; };
-		D2D9E441816E206FDC919E134C0F22CF /* Pods-GEImagePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GEImagePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC76FF70F7B16F7DDDA75377E3986937 /* GEImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA423D372556269CE4C087A47771E3F6 /* GEImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GEImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75AF1554B8B02DF0F01F6289118F6B5 /* GEImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GEImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		DFE07456E4116C9939E27978D5364ED3 /* Pods_GEImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BCD581EFB788A17856D5057A0ACF71 /* Pods-GEImagePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GEImagePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5F769B88AFB888659E20BDC1B4566F6 /* Pods-GEImagePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GEImagePicker_Example-dummy.m"; sourceTree = "<group>"; };
-		FE55C20A5DABC284CFE9E80EBE6D96AB /* Pods-GEImagePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E640D891E8B869E3E1B3DC7C9E1CF114 /* Pods-GEImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GEImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		F0F1437891B191589611FAA6B99EBE6A /* GEImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GEImagePicker-dummy.m"; sourceTree = "<group>"; };
+		F69FFD60E8848C40F75948540BA76C8C /* Pods-GEImagePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GEImagePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE7BF21F9F3C61369970FEE881C21DD8 /* Pods-GEImagePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GEImagePicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		FE8C96F44EC1B9CE95D23180D6268BEF /* GEImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GEImagePicker.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2309336830B1BCACFA6700A9385F0EBE /* Frameworks */ = {
+		3BC7DC7217B78262FD1FAC9411DDF6F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CB169A144361FECBDCFBEB16833F53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +77,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C43B90533C0A8F655C669643C8C91D9 /* Frameworks */ = {
+		BED9BE121BED15C42F9D9CA6E2FDC5A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9919282B60F34A392830D71814B47BC7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C078651DAEC4EE65079E639A786EAA50 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C37BAFA2DF88D0EA016CAC1AA035360 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +93,32 @@
 				3AFEAF4DD3906D123B3438664A629494 /* GEImagePicker */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18D6440BA771104F8B8F6DA4DE09DBA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C46834CDD32C1392BB46C34140E3FFF /* Pods-GEImagePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C46834CDD32C1392BB46C34140E3FFF /* Pods-GEImagePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C1F5ABEB9E80B554BCA79FEC55AD0A2 /* Info.plist */,
+				E640D891E8B869E3E1B3DC7C9E1CF114 /* Pods-GEImagePicker_Tests.modulemap */,
+				360A30E565BD3C074CA367D2F08B4399 /* Pods-GEImagePicker_Tests-acknowledgements.markdown */,
+				F69FFD60E8848C40F75948540BA76C8C /* Pods-GEImagePicker_Tests-acknowledgements.plist */,
+				95007BA9D5DBD59EA98F8A24711BF499 /* Pods-GEImagePicker_Tests-dummy.m */,
+				52FC9DB161AAB62E76C125F10481D34A /* Pods-GEImagePicker_Tests-frameworks.sh */,
+				FE7BF21F9F3C61369970FEE881C21DD8 /* Pods-GEImagePicker_Tests-resources.sh */,
+				80722E786C26BADECE24E5EE559172B6 /* Pods-GEImagePicker_Tests-umbrella.h */,
+				457A68209085455DD80DC2DAD378E905 /* Pods-GEImagePicker_Tests.debug.xcconfig */,
+				3F01FB31393E0C5BF8F106E15F7161F7 /* Pods-GEImagePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-GEImagePicker_Tests";
+			path = "Target Support Files/Pods-GEImagePicker_Tests";
 			sourceTree = "<group>";
 		};
 		2E9FD894EA4C94FFA8AE201CC19F3BA0 /* Pod */ = {
@@ -137,10 +134,10 @@
 			children = (
 				1435AC1D8E830072CEECE767D5B8CDE1 /* GEImagePicker.modulemap */,
 				FE8C96F44EC1B9CE95D23180D6268BEF /* GEImagePicker.xcconfig */,
-				69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */,
-				68CF1F1BCDEE4F97A1D5FEF4C4F0C883 /* GEImagePicker-dummy.m */,
+				9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */,
+				F0F1437891B191589611FAA6B99EBE6A /* GEImagePicker-dummy.m */,
 				692C43DEECC4D1C358B7EC292270CBD6 /* GEImagePicker-prefix.pch */,
-				3E000ACBA2274DA8F27D6AF07A562C2E /* GEImagePicker-umbrella.h */,
+				D75AF1554B8B02DF0F01F6289118F6B5 /* GEImagePicker-umbrella.h */,
 				01529CE5601CFC047B48F73CCF0E1681 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -157,57 +154,12 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		42011390ED6AB6B980340C0A6CDF7592 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				63813A180C231383D4844A45EBDE11D0 /* Pods-GEImagePicker_Example */,
-				76E1A325814DB93EACD7199A2DB45865 /* Pods-GEImagePicker_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				86A5C543B2B41DE4C22658337082C7EB /* Foundation.framework */,
+				4787D1EC72F1F648B4A0AA101DDB167F /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		63813A180C231383D4844A45EBDE11D0 /* Pods-GEImagePicker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				5B6B5B66DC69DAD67AB64C9E19C22FA4 /* Info.plist */,
-				C8B0DA79D12725B7339E67979546D3F2 /* Pods-GEImagePicker_Example.modulemap */,
-				D2D9E441816E206FDC919E134C0F22CF /* Pods-GEImagePicker_Example-acknowledgements.markdown */,
-				E8BCD581EFB788A17856D5057A0ACF71 /* Pods-GEImagePicker_Example-acknowledgements.plist */,
-				F5F769B88AFB888659E20BDC1B4566F6 /* Pods-GEImagePicker_Example-dummy.m */,
-				FE55C20A5DABC284CFE9E80EBE6D96AB /* Pods-GEImagePicker_Example-frameworks.sh */,
-				D1CE798150A7F67EAFF001CE984EF205 /* Pods-GEImagePicker_Example-resources.sh */,
-				7F47DAEB78A97BFD944E88665BD9B957 /* Pods-GEImagePicker_Example-umbrella.h */,
-				7235F9140E6EB8515F621EBF78A05D52 /* Pods-GEImagePicker_Example.debug.xcconfig */,
-				9DC505B6BE1517D6B7AADAD368E651EE /* Pods-GEImagePicker_Example.release.xcconfig */,
-			);
-			name = "Pods-GEImagePicker_Example";
-			path = "Target Support Files/Pods-GEImagePicker_Example";
-			sourceTree = "<group>";
-		};
-		76E1A325814DB93EACD7199A2DB45865 /* Pods-GEImagePicker_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A5DD2746A767248FF9C88D38508A0A15 /* Info.plist */,
-				95271E3CEC24D58BE1F613E01BBCF802 /* Pods-GEImagePicker_Tests.modulemap */,
-				D19C613438C4E33C78C086E714C00739 /* Pods-GEImagePicker_Tests-acknowledgements.markdown */,
-				CCCD0C559CFCEA48397808FB748EF407 /* Pods-GEImagePicker_Tests-acknowledgements.plist */,
-				95007BA9D5DBD59EA98F8A24711BF499 /* Pods-GEImagePicker_Tests-dummy.m */,
-				C8C6B2BBBC88CFA3EF56211855CCCD43 /* Pods-GEImagePicker_Tests-frameworks.sh */,
-				3F0AA439A406E3F9022C5B9DF478BB2E /* Pods-GEImagePicker_Tests-resources.sh */,
-				80722E786C26BADECE24E5EE559172B6 /* Pods-GEImagePicker_Tests-umbrella.h */,
-				457A68209085455DD80DC2DAD378E905 /* Pods-GEImagePicker_Tests.debug.xcconfig */,
-				3F01FB31393E0C5BF8F106E15F7161F7 /* Pods-GEImagePicker_Tests.release.xcconfig */,
-			);
-			name = "Pods-GEImagePicker_Tests";
-			path = "Target Support Files/Pods-GEImagePicker_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -217,14 +169,14 @@
 				03E076E226A08C583626434F076E2AA5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				42011390ED6AB6B980340C0A6CDF7592 /* Targets Support Files */,
+				18D6440BA771104F8B8F6DA4DE09DBA3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		91F0E94EEC8C54D7DA855C5BCFDC730A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B9A641C1C7E28EF0085B819 /* GEImagePicker.swift */,
+				8BA51FE41C7E338100685856 /* GEImagePicker.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -240,9 +192,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81A8633AF96D65EC9AAA442FE5196BF6 /* GEImagePicker.bundle */,
-				65869E634FB2EF79392D73A222D798D3 /* GEImagePicker.framework */,
-				A960D9482BC948FB845E9FC4478448E7 /* Pods_GEImagePicker_Example.framework */,
+				BC76FF70F7B16F7DDDA75377E3986937 /* GEImagePicker.bundle */,
+				CA423D372556269CE4C087A47771E3F6 /* GEImagePicker.framework */,
 				DFE07456E4116C9939E27978D5364ED3 /* Pods_GEImagePicker_Tests.framework */,
 			);
 			name = Products;
@@ -251,19 +202,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		990148396DDCB657B5384FB895A8C3CB /* Headers */ = {
+		CB6E043A0157B1F0B7FEAC4BFED6DC6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30D505CA6C88F64301BB3192EF40195 /* Pods-GEImagePicker_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD28541C42F7AB131EDFFD3DB49FFD0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E822D106BCC759A614BD207C5C8330E /* GEImagePicker-umbrella.h in Headers */,
+				E34249FB5AD47A03F6896BFED624E606 /* GEImagePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,13 +221,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52593E16309D5D5CEB3447EE83E51C8E /* GEImagePicker-GEImagePicker */ = {
+		4718C60321436C633A2FE73BA89FF553 /* GEImagePicker-GEImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7875AB4476872A3394778547DA7136FF /* Build configuration list for PBXNativeTarget "GEImagePicker-GEImagePicker" */;
+			buildConfigurationList = CDCF07E156E8165126B486478FBEC486 /* Build configuration list for PBXNativeTarget "GEImagePicker-GEImagePicker" */;
 			buildPhases = (
-				A0DC847D1241CCA4B475FBBF90C0C39E /* Sources */,
-				2309336830B1BCACFA6700A9385F0EBE /* Frameworks */,
-				E9C8313950E46DBD3F6B3AE4CD9A41C5 /* Resources */,
+				4E6D523928E88CFCFED86E6291FC2726 /* Sources */,
+				BED9BE121BED15C42F9D9CA6E2FDC5A8 /* Frameworks */,
+				F0AE48C7208FEA4FD8B4B7CE080FFAA0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -292,27 +235,8 @@
 			);
 			name = "GEImagePicker-GEImagePicker";
 			productName = "GEImagePicker-GEImagePicker";
-			productReference = 81A8633AF96D65EC9AAA442FE5196BF6 /* GEImagePicker.bundle */;
+			productReference = BC76FF70F7B16F7DDDA75377E3986937 /* GEImagePicker.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		659EBE1B80A9E971C2810D5E69E3FDC3 /* GEImagePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2129B8084D238DFC24261386CD9C258A /* Build configuration list for PBXNativeTarget "GEImagePicker" */;
-			buildPhases = (
-				B68A11BDD0ED792AE9D41F0BDDEEF025 /* Sources */,
-				C078651DAEC4EE65079E639A786EAA50 /* Frameworks */,
-				A34CF79C0620D6F0EED5B803FED584CB /* Resources */,
-				CAD28541C42F7AB131EDFFD3DB49FFD0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				417FAB69C44869DF22AE4F67275D46EA /* PBXTargetDependency */,
-			);
-			name = GEImagePicker;
-			productName = GEImagePicker;
-			productReference = 65869E634FB2EF79392D73A222D798D3 /* GEImagePicker.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		DAE556E033BDBC0A2E37D23FCF5B8358 /* Pods-GEImagePicker_Tests */ = {
 			isa = PBXNativeTarget;
@@ -325,29 +249,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				CBE8CCADD73F5B8F129CF048450B835D /* PBXTargetDependency */,
+				7BCCE348F7EC85BF5B8F4070E01830C4 /* PBXTargetDependency */,
 			);
 			name = "Pods-GEImagePicker_Tests";
 			productName = "Pods-GEImagePicker_Tests";
 			productReference = DFE07456E4116C9939E27978D5364ED3 /* Pods_GEImagePicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DFEBE72A2ADF9FDBC72348D2DC289FB5 /* Pods-GEImagePicker_Example */ = {
+		EF8FB07D7A7BA0AAF03D55E1B8208F6F /* GEImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 527DB2633CC8AAC9551FDC8BF317FF5F /* Build configuration list for PBXNativeTarget "Pods-GEImagePicker_Example" */;
+			buildConfigurationList = 3E675780A8A15E9704F58690CA997164 /* Build configuration list for PBXNativeTarget "GEImagePicker" */;
 			buildPhases = (
-				A10105A236B48F87A801D8CF03776A93 /* Sources */,
-				9C43B90533C0A8F655C669643C8C91D9 /* Frameworks */,
-				990148396DDCB657B5384FB895A8C3CB /* Headers */,
+				3B70B0647EB61F0C8E79C4B99D1B2DF9 /* Sources */,
+				3BC7DC7217B78262FD1FAC9411DDF6F2 /* Frameworks */,
+				CDC6837C13F8F83CEA367A5C794D9187 /* Resources */,
+				CB6E043A0157B1F0B7FEAC4BFED6DC6D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5BF3CE2FC99030109CD13402CA499C9 /* PBXTargetDependency */,
+				6BF739917852070E5307B61E40B5575E /* PBXTargetDependency */,
 			);
-			name = "Pods-GEImagePicker_Example";
-			productName = "Pods-GEImagePicker_Example";
-			productReference = A960D9482BC948FB845E9FC4478448E7 /* Pods_GEImagePicker_Example.framework */;
+			name = GEImagePicker;
+			productName = GEImagePicker;
+			productReference = CA423D372556269CE4C087A47771E3F6 /* GEImagePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -371,24 +296,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				659EBE1B80A9E971C2810D5E69E3FDC3 /* GEImagePicker */,
-				52593E16309D5D5CEB3447EE83E51C8E /* GEImagePicker-GEImagePicker */,
-				DFEBE72A2ADF9FDBC72348D2DC289FB5 /* Pods-GEImagePicker_Example */,
+				EF8FB07D7A7BA0AAF03D55E1B8208F6F /* GEImagePicker */,
+				4718C60321436C633A2FE73BA89FF553 /* GEImagePicker-GEImagePicker */,
 				DAE556E033BDBC0A2E37D23FCF5B8358 /* Pods-GEImagePicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A34CF79C0620D6F0EED5B803FED584CB /* Resources */ = {
+		CDC6837C13F8F83CEA367A5C794D9187 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4BFE206B790CCFF43A29DB53114F9C /* GEImagePicker.bundle in Resources */,
+				F7892B2F899D9E434CFF9FCA2D7F0EA8 /* GEImagePicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9C8313950E46DBD3F6B3AE4CD9A41C5 /* Resources */ = {
+		F0AE48C7208FEA4FD8B4B7CE080FFAA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,6 +322,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B70B0647EB61F0C8E79C4B99D1B2DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F3AA1A6A86CA4CB19E66250EC6F5B7 /* GEImagePicker-dummy.m in Sources */,
+				8BA51FE51C7E338100685856 /* GEImagePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45D7238D315FFCE975AB560F422F8FDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,54 +339,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0DC847D1241CCA4B475FBBF90C0C39E /* Sources */ = {
+		4E6D523928E88CFCFED86E6291FC2726 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10105A236B48F87A801D8CF03776A93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5828DDECB18C0AF605D5B9FED19EF6F /* Pods-GEImagePicker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68A11BDD0ED792AE9D41F0BDDEEF025 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E4455BA24A6774FA7470AA6905E3A24 /* GEImagePicker-dummy.m in Sources */,
-				8B9A641D1C7E28EF0085B819 /* GEImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		417FAB69C44869DF22AE4F67275D46EA /* PBXTargetDependency */ = {
+		6BF739917852070E5307B61E40B5575E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GEImagePicker-GEImagePicker";
-			target = 52593E16309D5D5CEB3447EE83E51C8E /* GEImagePicker-GEImagePicker */;
-			targetProxy = 682413DDABFA61456B0EC9222AE1FCB8 /* PBXContainerItemProxy */;
+			target = 4718C60321436C633A2FE73BA89FF553 /* GEImagePicker-GEImagePicker */;
+			targetProxy = 15B5FD4E3FF8257E7C7C7DAA4F965BA2 /* PBXContainerItemProxy */;
 		};
-		B5BF3CE2FC99030109CD13402CA499C9 /* PBXTargetDependency */ = {
+		7BCCE348F7EC85BF5B8F4070E01830C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GEImagePicker;
-			target = 659EBE1B80A9E971C2810D5E69E3FDC3 /* GEImagePicker */;
-			targetProxy = C3214D1223DFB5BA10E51464BDDDCDA4 /* PBXContainerItemProxy */;
-		};
-		CBE8CCADD73F5B8F129CF048450B835D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GEImagePicker;
-			target = 659EBE1B80A9E971C2810D5E69E3FDC3 /* GEImagePicker */;
-			targetProxy = D09960B70DED5A68706CB973AC13586A /* PBXContainerItemProxy */;
+			target = EF8FB07D7A7BA0AAF03D55E1B8208F6F /* GEImagePicker */;
+			targetProxy = 6DAFA564488F43FD24EFAA226AB068CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08EB7DBAD69E60C6C71627BD3DA53129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GEImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,9 +410,9 @@
 			};
 			name = Release;
 		};
-		38D04887D7F5BCCB51CF054CBC2AA516 /* Debug */ = {
+		19B4330E319F7E0F1E400865DF630374 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */;
+			baseConfigurationReference = 9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -514,48 +436,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47D572349AD8EBEB126DE57DC571F1D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7235F9140E6EB8515F621EBF78A05D52 /* Pods-GEImagePicker_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GEImagePicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-GEImagePicker_Example/Pods-GEImagePicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_GEImagePicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DCFD60D39499D34CA78EB13C5FBF5D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = GEImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -598,27 +478,26 @@
 			};
 			name = Debug;
 		};
-		9905F94DF9DC05DAE7238DAF097D3BA9 /* Release */ = {
+		660B5A9FA054C1D585B97371EE013A41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC505B6BE1517D6B7AADAD368E651EE /* Pods-GEImagePicker_Example.release.xcconfig */;
+			baseConfigurationReference = 9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0.1.0;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GEImagePicker_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GEImagePicker/GEImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GEImagePicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-GEImagePicker_Example/Pods-GEImagePicker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GEImagePicker/GEImagePicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_GEImagePicker_Example;
+				PRODUCT_NAME = GEImagePicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -656,9 +535,9 @@
 			};
 			name = Release;
 		};
-		A446CBAD4087DF830653F2196D77EB68 /* Release */ = {
+		AD2A566D0D4B8D678A1414132E55F6CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */;
+			baseConfigurationReference = 9FF4A484324F24222B62D33CA71D36A5 /* GEImagePicker-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = GEImagePicker;
@@ -698,46 +577,9 @@
 			};
 			name = Debug;
 		};
-		CAC27CEC489789055121C838855D8673 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69B6D042B153C528E97F1E2A7A4370FF /* GEImagePicker-Private.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GEImagePicker/GEImagePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GEImagePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GEImagePicker/GEImagePicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GEImagePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2129B8084D238DFC24261386CD9C258A /* Build configuration list for PBXNativeTarget "GEImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38D04887D7F5BCCB51CF054CBC2AA516 /* Debug */,
-				CAC27CEC489789055121C838855D8673 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -747,20 +589,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		527DB2633CC8AAC9551FDC8BF317FF5F /* Build configuration list for PBXNativeTarget "Pods-GEImagePicker_Example" */ = {
+		3E675780A8A15E9704F58690CA997164 /* Build configuration list for PBXNativeTarget "GEImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47D572349AD8EBEB126DE57DC571F1D3 /* Debug */,
-				9905F94DF9DC05DAE7238DAF097D3BA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7875AB4476872A3394778547DA7136FF /* Build configuration list for PBXNativeTarget "GEImagePicker-GEImagePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DCFD60D39499D34CA78EB13C5FBF5D3 /* Debug */,
-				A446CBAD4087DF830653F2196D77EB68 /* Release */,
+				19B4330E319F7E0F1E400865DF630374 /* Debug */,
+				660B5A9FA054C1D585B97371EE013A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -770,6 +603,15 @@
 			buildConfigurations = (
 				B3A8C0090855E93F8F05DEDB9ABBDBAB /* Debug */,
 				9DCE3F77BB342A486F553956E12B61C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCF07E156E8165126B486478FBEC486 /* Build configuration list for PBXNativeTarget "GEImagePicker-GEImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EB7DBAD69E60C6C71627BD3DA53129 /* Debug */,
+				AD2A566D0D4B8D678A1414132E55F6CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
