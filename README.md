@@ -93,10 +93,10 @@ enum GEImagePickerSource {
 iOS 8.0
 
 ## Installation
-GEImagePicker is available through CocoaPods. Add the following line to your podfile:
+Copy GEImagePicker.swift file to your project and add the import line:
 
-```ruby
-pod 'GEImagePicker'
+```swift
+import GEImagePicker
 ```
 ## Author
 
