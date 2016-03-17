@@ -7,14 +7,14 @@ Easy image picker - Closure callback with status - Permission Check - Action She
 
 You can easily pick a picture from your Camera, Album or Library in one call and a **closure as response** with the picture selected and the final status. You can also decide if you want to let the user crop the picture or not (**editMode**).
 
-In addition this tool will check the **permissions** the app has for accessing to the Camera or Library and it will let you go to the application settings panel in order to get them activated.
+In addition this tool will check the app **permissions** for accessing to the Camera or Library and it will let you go to the application settings panel in order to get them activated.
 
 It was added an **actionsheet** for making easier the selection of the picture.
 
 ![ActionSheet](Resources/action_sheet.png)
 
 ## Usage
-If you want to try the example project clone the repository and run pod install from the Example directory first.
+You only need to add the GEImagePicker.swift file to your project and start using the available methods.
 
 To use it in your own project
 
