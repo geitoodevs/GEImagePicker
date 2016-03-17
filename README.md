@@ -1,4 +1,5 @@
 # GEImagePicker (Swift)
+[![Platform](https://img.shields.io/cocoapods/p/JNKeychain.svg?style=flat)]
 Easy image picker - Closure callback with status - Permission Check - Action Sheet tool
 
 You can easily pick a picture from your Camera, Album or Library in one call and a **closure as response** with the picture selected and the final status. You can also decide if you want to let the user crop the picture or not (**editMode**).
