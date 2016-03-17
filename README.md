@@ -1,7 +1,7 @@
 # GEImagePicker (Swift)
-[![License](https://img.shields.io/cocoapods/l/JNKeychain.svg?style=flat)](https://github.com/geitoodevs/GEImagePicker)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/geitoodevs/GEImagePicker)
 [![Platform](https://img.shields.io/badge/platform-iOS-green.svg)](https://github.com/geitoodevs/GEImagePicker)
-[![Language](https://img.shields.io/badge/language-swift-blue.svg)](https://github.com/geitoodevs/GEImagePicker)
+[![Language](https://img.shields.io/badge/language-swift-orange.svg)](https://github.com/geitoodevs/GEImagePicker)
 
 Easy image picker - Closure callback with status - Permission Check - Action Sheet tool
 
