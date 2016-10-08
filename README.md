@@ -24,23 +24,23 @@ To use it in your own project
 // In this case we are going to pick a picture from PhotoLibrary and
 // I will be able to crop it because I set the editMode to true
 
-GEImagePicker.pickImage(GEImagePickerSource.PhotoLibrary, whereViewController: self, editMode: true) { (image, status) -> () in
-            
-            switch status {
-                case GEImagePickerStatus.Cancelled:
-                    print("Cancelled")
-                break
-                case GEImagePickerStatus.NoSource:
-                    print("No source")
-                break
-                case GEImagePickerStatus.NotPermission:
-                    print("No permissions")
-                break
-                case GEImagePickerStatus.OK:
-                    print("OK")
-                break
-                
-            }
+GEImagePicker.pickImage(.photoLibrary, whereViewController: self, editMode: true) { (image, status) -> () in
+
+    switch status {
+        case .cancelled:
+            print("Cancelled")
+            break
+        case .noSource:
+            print("No source")
+            break
+        case .notPermission:
+            print("No permissions")
+            break
+        case .ok:
+            print("OK")
+            break
+
+    }
 }
 ```
 
@@ -48,23 +48,23 @@ GEImagePicker.pickImage(GEImagePickerSource.PhotoLibrary, whereViewController: s
 
 ```swift
 GEImagePicker.pickImageActionSheet(self, editMode: true) { (image, status) -> () in
-            
-            switch status {
-                
-            case GEImagePickerStatus.Cancelled:
-                print("Cancelled")
-                break
-            case GEImagePickerStatus.NoSource:
-                print("No source")
-                break
-            case GEImagePickerStatus.NotPermission:
-                print("No permissions")
-                break
-            case GEImagePickerStatus.OK:
-                print("OK")
-                break
-                
-            }
+
+    switch status {
+
+        case .cancelled:
+            print("Cancelled")
+            break
+        case .noSource:
+            print("No source")
+            break
+        case .notPermission:
+            print("No permissions")
+            break
+        case .ok:
+            print("OK")
+            break
+
+    }
 }
 
 ```
@@ -74,10 +74,10 @@ GEImagePicker.pickImageActionSheet(self, editMode: true) { (image, status) -> ()
 
 ```swift
 enum GEImagePickerStatus {
-    case OK
-    case Cancelled
-    case NoSource
-    case NotPermission
+    case ok
+    case cancelled
+    case noSource
+    case notPermission
 }
 ```
 
@@ -85,9 +85,9 @@ enum GEImagePickerStatus {
 
 ```swift
 enum GEImagePickerSource {
-    case Camera
-    case SavedPhotosAlbum
-    case PhotoLibrary
+    case camera
+    case savedPhotosAlbum
+    case photoLibrary
 }
 ```
 
@@ -101,7 +101,7 @@ Copy GEImagePicker.swift file to your project and start using the functions avai
 
 ## Author
 
-Miguel Rodríguez, www.geitoo.com
+Miguel Rodríguez, www.miguelios.com
 
 ## License
 
