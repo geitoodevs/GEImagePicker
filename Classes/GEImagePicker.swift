@@ -11,38 +11,38 @@ import AVFoundation
 import Photos
 
 enum GEImagePickerStatus {
-    case OK
-    case Cancelled
-    case NoSource
-    case NotPermission
+    case ok
+    case cancelled
+    case noSource
+    case notPermission
 }
 
 enum GEImagePickerSource {
-    case Camera
-    case SavedPhotosAlbum
-    case PhotoLibrary
+    case camera
+    case savedPhotosAlbum
+    case photoLibrary
 }
 
 class GEImagePicker: NSObject {
     
-    var callback:((image: UIImage?,status : GEImagePickerStatus)->Void)?
+    var callback:((_ image: UIImage?,_ status : GEImagePickerStatus)->Void)?
     
     // MARK - Public Methods
     
-    class func pickImageActionSheet(whereViewController : UIViewController,
+    class func pickImageActionSheet(_ whereViewController : UIViewController,
                                                editMode : Bool,
-                                             completion : (image: UIImage?,
-                                                 status : GEImagePickerStatus)->()) {
+                                             completion : @escaping (_ image: UIImage?,
+                                                 _ status : GEImagePickerStatus)->()) {
                                                     
                             let actionSheet = UIAlertController(title: "Picture Selection",
                                 message: "Select the source",
-                                preferredStyle: UIAlertControllerStyle.ActionSheet)
+                                preferredStyle: UIAlertControllerStyle.actionSheet)
                             
                             actionSheet.addAction(UIAlertAction(title: "Camera",
-                                style: UIAlertActionStyle.Default,
+                                style: UIAlertActionStyle.default,
                                 handler: { (action) -> Void in
                                 
-                                self.pickImage(GEImagePickerSource.Camera,
+                                self.pickImage(GEImagePickerSource.camera,
                                     whereViewController: whereViewController,
                                     editMode: editMode,
                                     completion: completion)
@@ -50,10 +50,10 @@ class GEImagePicker: NSObject {
                             }))
             
                             actionSheet.addAction(UIAlertAction(title: "Saved Photos Album",
-                                style: UIAlertActionStyle.Default,
+                                style: UIAlertActionStyle.default,
                                 handler: { (action) -> Void in
                                     
-                                self.pickImage(GEImagePickerSource.SavedPhotosAlbum,
+                                self.pickImage(GEImagePickerSource.savedPhotosAlbum,
                                     whereViewController: whereViewController,
                                     editMode: editMode,
                                     completion: completion)
@@ -61,50 +61,50 @@ class GEImagePicker: NSObject {
                             }))
                                                     
                             actionSheet.addAction(UIAlertAction(title: "Photo Library",
-                                style: UIAlertActionStyle.Default,
+                                style: UIAlertActionStyle.default,
                                 handler: { (action) -> Void in
                                     
-                                    self.pickImage(GEImagePickerSource.PhotoLibrary,
+                                    self.pickImage(GEImagePickerSource.photoLibrary,
                                         whereViewController: whereViewController,
                                         editMode: editMode,
                                         completion: completion)
                                     
                             }))
                             actionSheet.addAction(UIAlertAction(title: "Cancel",
-                                style: UIAlertActionStyle.Destructive,
+                                style: UIAlertActionStyle.destructive,
                                 handler: { (action) -> Void in
                                     
-                                    completion(image: nil, status: GEImagePickerStatus.Cancelled)
+                                    completion(nil, GEImagePickerStatus.cancelled)
                                     
                             }))
                                                     
-                            whereViewController.presentViewController(actionSheet,
+                            whereViewController.present(actionSheet,
                                 animated: true, completion: nil)
     }
     
     
-    class func pickImage(source : GEImagePickerSource,
+    class func pickImage(_ source : GEImagePickerSource,
             whereViewController : UIViewController,
                        editMode : Bool,
-                     completion : (image: UIImage?,
-                         status : GEImagePickerStatus)->()) {
+                     completion : @escaping (_ image: UIImage?,
+                         _ status : GEImagePickerStatus)->()) {
                             
                             var sourceType : UIImagePickerControllerSourceType
                             
                             
-                            if source == GEImagePickerSource.Camera {
-                                sourceType = UIImagePickerControllerSourceType.Camera;
-                            }else if source == GEImagePickerSource.PhotoLibrary {
-                                sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
+                            if source == GEImagePickerSource.camera {
+                                sourceType = UIImagePickerControllerSourceType.camera;
+                            }else if source == GEImagePickerSource.photoLibrary {
+                                sourceType = UIImagePickerControllerSourceType.photoLibrary;
                             }else {
-                                sourceType = UIImagePickerControllerSourceType.SavedPhotosAlbum;
+                                sourceType = UIImagePickerControllerSourceType.savedPhotosAlbum;
                             }
                             
                             if UIImagePickerController.isSourceTypeAvailable(sourceType) == false {
-                                completion(image: nil, status: GEImagePickerStatus.NoSource);
+                                completion(nil, GEImagePickerStatus.noSource);
                             }
                             
-                            if (sourceType == UIImagePickerControllerSourceType.Camera){
+                            if (sourceType == UIImagePickerControllerSourceType.camera){
                                 self.checkCamera({ (success) -> () in
                                     
                                     if success == true {
@@ -140,11 +140,11 @@ class GEImagePicker: NSObject {
     
     // MARK - Private Methods
                             
-    private class func showPicker(type : UIImagePickerControllerSourceType,
+    fileprivate class func showPicker(_ type : UIImagePickerControllerSourceType,
                              whe : UIViewController,
                             edit : Bool,
-                            comp : (image: UIImage?,
-                            stat : GEImagePickerStatus)->()) {
+                            comp : @escaping (_ image: UIImage?,
+                            _ stat : GEImagePickerStatus)->()) {
                             
                             let delegate : GEImagePicker = GEImagePicker()
                             delegate.callback = comp
@@ -153,7 +153,7 @@ class GEImagePicker: NSObject {
                             picker.delegate = delegate
                             picker.allowsEditing = edit
                             picker.sourceType = type
-                            whe.presentViewController(picker, animated: true, completion: nil)
+                            whe.present(picker, animated: true, completion: nil)
                             
                             var aoKey = ""
                             objc_setAssociatedObject(picker,
@@ -163,67 +163,67 @@ class GEImagePicker: NSObject {
 
     }
     
-    private class func checkCamera(completion: (success : Bool) ->()) {
-        let authStatus = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
-        if authStatus == AVAuthorizationStatus.Authorized {
-            completion(success: true)
+    fileprivate class func checkCamera(_ completion: @escaping (_ success : Bool) ->()) {
+        let authStatus = AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo)
+        if authStatus == AVAuthorizationStatus.authorized {
+            completion(true)
         }
-        else if authStatus == AVAuthorizationStatus.NotDetermined {
-            AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo,
+        else if authStatus == AVAuthorizationStatus.notDetermined {
+            AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo,
                 completionHandler: { (granted : Bool) -> Void in
-                completion(success: granted)
+                completion(granted)
             })
         }
         else{
-            completion(success: false)
+            completion(false)
         }
 
     }
     
-    private class func checkAlbum(completion: (success : Bool) ->()) {
+    fileprivate class func checkAlbum(_ completion: @escaping (_ success : Bool) ->()) {
         let authStatus = PHPhotoLibrary.authorizationStatus()
         
-        if authStatus == PHAuthorizationStatus.Authorized {
-            completion(success: true)
-        }else if authStatus == PHAuthorizationStatus.NotDetermined {
+        if authStatus == PHAuthorizationStatus.authorized {
+            completion(true)
+        }else if authStatus == PHAuthorizationStatus.notDetermined {
             
             PHPhotoLibrary.requestAuthorization({ (status) -> Void in
                 
-                if status == PHAuthorizationStatus.Authorized {
-                    completion(success: true)
+                if status == PHAuthorizationStatus.authorized {
+                    completion(true)
                 }else{
-                    completion(success: false)
+                    completion(false)
                 }
             })
             
         }else {
-            completion(success: false)
+            completion(false)
         }
     
     }
     
-    private class func notPermission(controller : UIViewController, completion : (image: UIImage?,
-        status : GEImagePickerStatus)->()){
+    fileprivate class func notPermission(_ controller : UIViewController, completion : @escaping (_ image: UIImage?,
+        _ status : GEImagePickerStatus)->()){
     
         let alert = UIAlertController(title: "Attention",
             message: "You don't have permission for accessing to Camera/Library\nGo to settings in order to let the app use them.",
-            preferredStyle: UIAlertControllerStyle.Alert)
+            preferredStyle: UIAlertControllerStyle.alert)
         
         
         alert.addAction(UIAlertAction(title: "Cancel",
-            style: UIAlertActionStyle.Cancel,
+            style: UIAlertActionStyle.cancel,
             handler: { (action) -> Void in
                 
-                completion(image: nil, status: GEImagePickerStatus.NotPermission)
+                completion(nil, GEImagePickerStatus.notPermission)
         }))
         alert.addAction(UIAlertAction(title: "Go",
-            style: UIAlertActionStyle.Default,
+            style: UIAlertActionStyle.default,
             handler: { (action) -> Void in
                 
-                UIApplication.sharedApplication().openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
+                UIApplication.shared.openURL(URL(string: UIApplicationOpenSettingsURLString)!)
         }))
         
-        controller.presentViewController(alert, animated: true, completion: nil)
+        controller.present(alert, animated: true, completion: nil)
 
     }
     
@@ -233,11 +233,11 @@ class GEImagePicker: NSObject {
 extension GEImagePicker : UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
     
-    func imagePickerController(picker: UIImagePickerController,
+    func imagePickerController(_ picker: UIImagePickerController,
         didFinishPickingImage image: UIImage,
         editingInfo: [String : AnyObject]?) {
         
-        picker.dismissViewControllerAnimated(true) { () -> Void in
+        picker.dismiss(animated: true) { () -> Void in
             
             if self.callback != nil {
                 
@@ -246,17 +246,17 @@ extension GEImagePicker : UIImagePickerControllerDelegate,UINavigationController
                     finalImage = editingInfo![UIImagePickerControllerOriginalImage] as? UIImage
                 }
                 
-                self.callback!(image: finalImage!,status: GEImagePickerStatus.OK)
+                self.callback!(finalImage!,GEImagePickerStatus.ok)
             }
         }
     }
     
-    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         
-        picker.dismissViewControllerAnimated(true) { () -> Void in
+        picker.dismiss(animated: true) { () -> Void in
             
             if self.callback != nil {
-                self.callback!(image: nil,status: GEImagePickerStatus.Cancelled)
+                self.callback!(nil,GEImagePickerStatus.cancelled)
             }
         }
     }
